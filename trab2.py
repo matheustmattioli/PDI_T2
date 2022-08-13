@@ -1,3 +1,8 @@
+# Código para implementação do segundo trabalho prático da disciplina
+# Processamento Digital de Imagens 2022/1
+# Feito pelos alunos:
+#   - Lucas Machado Cid          - RA: 769841
+#   - Matheus Teixeira Mattioli  - RA: 769783
 import numpy as np
 import matplotlib.pyplot as plt
 from skimage.draw import rectangle_perimeter  # Biblioteca scikit-image
@@ -104,6 +109,15 @@ imagesStrings = [
     {"name_global": "trashcanglobal.jpg", "name_object": "trashcan.jpg", "hasColor": True},
     {"name_global": "pessoa_global.jpg", "name_object": "pessoa.jpg", "hasColor": True},
     {"name_global": "imagem_global.tiff", "name_object": "gato.tiff", "hasColor": False},
+    {"name_global": "coqueiro_baixocontrast.jpg", "name_object": "coqueiro.jpg", "hasColor": True},
+    {"name_global": "coqueiro_baixocontrast.jpg", "name_object": "lua.jpg", "hasColor": True},
+    {"name_global": "coqueiro_baixocontrast.jpg", "name_object": "canto.jpg", "hasColor": True},
+    {"name_global": "coqueiro_escura.jpg", "name_object": "coqueiro.jpg", "hasColor": True},
+    {"name_global": "coqueiro_escura.jpg", "name_object": "lua.jpg", "hasColor": True},
+    {"name_global": "coqueiro_escura.jpg", "name_object": "canto.jpg", "hasColor": True},
+    {"name_global": "coqueiro_qsesemcontraste.jpg", "name_object": "coqueiro.jpg", "hasColor": True},
+    {"name_global": "coqueiro_qsesemcontraste.jpg", "name_object": "lua.jpg", "hasColor": True},
+    {"name_global": "coqueiro_qsesemcontraste.jpg", "name_object": "canto.jpg", "hasColor": True},
 ]
 
 
